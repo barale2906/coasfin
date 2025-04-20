@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración - Coasfin</title>
+    <meta name="description" content="Panel de administración de Coasfin">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/noticias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Coasfin Logo">
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#servicios">Servicios</a>
+                    <a href="index.html#nosotros">Nosotros</a>
+                    <a href="index.html#contacto">Contacto</a>
+                    <a href="noticias.html">Noticias</a>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="admin-login" id="login-section">
+            <div class="container">
+                <div class="login-container">
+                    <h2>Acceso Administrativo</h2>
+                    <p>Ingrese la contraseña para acceder al panel de administración</p>
+                    <form id="login-form">
+                        <div class="form-group">
+                            <label for="password">Contraseña</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <button type="submit" class="submit-button">Acceder</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="admin-panel" id="admin-panel" style="display: none;">
+            <div class="container">
+                <div class="admin-header">
+                    <h2>Panel de Administración</h2>
+                    <button id="logout-button" class="logout-button">
+                        <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
+                    </button>
+                </div>
+                
+                <div class="admin-content">
+                    <h3>Agregar Nueva Noticia</h3>
+                    <form id="news-form">
+                        <div class="form-group">
+                            <label for="news-title">Título</label>
+                            <input type="text" id="news-title" name="title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="news-date">Fecha</label>
+                            <input type="date" id="news-date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="news-image">URL de la imagen</label>
+                            <input type="text" id="news-image" name="image" placeholder="https://ejemplo.com/imagen.jpg">
+                        </div>
+                        <div class="form-group">
+                            <label for="news-excerpt">Resumen</label>
+                            <textarea id="news-excerpt" name="summary" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="news-content">Contenido</label>
+                            <textarea id="news-content" name="content" rows="10" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="news-author">Autor</label>
+                            <input type="text" id="news-author" name="author" required>
+                        </div>
+                        <button type="submit" class="submit-button">Publicar Noticia</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Coasfin Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#servicios">Servicios</a>
+                    <a href="index.html#nosotros">Nosotros</a>
+                    <a href="index.html#contacto">Contacto</a>
+                    <a href="noticias.html">Noticias</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Coasfin. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/noticias.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html> 

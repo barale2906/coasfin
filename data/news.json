@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1745185294",
+        "title": "Noticia mas reciente",
+        "date": "2025-04-22",
+        "image": "",
+        "summary": "De nuevo resumen",
+        "content": "Ahora son todas las noticias de abril, ",
+        "author": "Daniela Barajas"
+    },
+    {
+        "id": "1745184955",
+        "title": "Noticia adicional",
+        "date": "2025-04-20",
+        "image": "",
+        "summary": "Noticia de hoy",
+        "content": "Mas resumenes de la noticias de hoy",
+        "author": "Alexander"
+    },
+    {
+        "id": "1745184717",
+        "title": "noticia 1",
+        "date": "2025-04-20",
+        "image": "",
+        "summary": "Esta resumido",
+        "content": "De nuevo estamos probando",
+        "author": "Yo"
+    },
+    {
+        "id": "1",
+        "title": "Coasfin lanza nuevo servicio de asesor\u00eda financiera personalizada",
+        "date": "2024-03-15",
+        "image": "images\/news\/financial-advice.jpg",
+        "summary": "Coasfin presenta su nuevo servicio de asesor\u00eda financiera personalizada, dise\u00f1ado para ayudar a personas y empresas a alcanzar sus objetivos financieros.",
+        "content": "<p>Coasfin, l\u00edder en servicios financieros, se complace en anunciar el lanzamiento de su nuevo servicio de asesor\u00eda financiera personalizada. Este servicio est\u00e1 dise\u00f1ado para proporcionar soluciones financieras a medida que se adaptan a las necesidades espec\u00edficas de cada cliente.<\/p><p>El servicio incluye:<\/p><ul><li>Evaluaci\u00f3n financiera personalizada<\/li><li>Desarrollo de estrategias de inversi\u00f3n<\/li><li>Planificaci\u00f3n de jubilaci\u00f3n<\/li><li>Asesor\u00eda en gesti\u00f3n de deudas<\/li><li>Seguimiento mensual de objetivos<\/li><\/ul><p>\"Nuestro objetivo es empoderar a nuestros clientes con el conocimiento y las herramientas necesarias para tomar decisiones financieras informadas\", afirma Juan P\u00e9rez, Director de Servicios Financieros de Coasfin.<\/p><p>Para m\u00e1s informaci\u00f3n sobre este nuevo servicio, contacte a nuestro equipo de atenci\u00f3n al cliente.<\/p>",
+        "author": "Equipo de Comunicaciones Coasfin"
+    },
+    {
+        "id": "2",
+        "title": "Actualizaci\u00f3n de normativas en administraci\u00f3n de propiedad horizontal",
+        "date": "2024-03-10",
+        "image": "images\/news\/property-management.jpg",
+        "summary": "Nuevas normativas afectan a la administraci\u00f3n de propiedad horizontal. Coasfin actualiza sus servicios para cumplir con los nuevos requisitos.",
+        "content": "<p>Recientes cambios en la legislaci\u00f3n sobre propiedad horizontal han generado importantes modificaciones en la forma en que se administran los conjuntos residenciales y comerciales. Coasfin ha actualizado sus servicios para garantizar el cumplimiento total de estas nuevas normativas.<\/p><p>Los principales cambios incluyen:<\/p><ul><li>Nuevos requisitos para la presentaci\u00f3n de informes financieros<\/li><li>Actualizaci\u00f3n de procedimientos de convocatoria a asambleas<\/li><li>Modificaciones en la gesti\u00f3n de fondos de reserva<\/li><li>Nuevos est\u00e1ndares para la transparencia en la administraci\u00f3n<\/li><\/ul><p>\"Estos cambios representan una oportunidad para mejorar la transparencia y eficiencia en la administraci\u00f3n de propiedad horizontal\", se\u00f1ala Mar\u00eda Rodr\u00edguez, Gerente de Administraci\u00f3n de Propiedad Horizontal en Coasfin.<\/p><p>Nuestro equipo est\u00e1 disponible para asesorar a las comunidades sobre c\u00f3mo adaptarse a estas nuevas normativas.<\/p>",
+        "author": "Departamento Legal Coasfin"
+    },
+    {
+        "id": "3",
+        "title": "Coasfin celebra 10 a\u00f1os de excelencia en servicios financieros",
+        "date": "2024-03-05",
+        "image": "images\/news\/anniversary.jpg",
+        "summary": "Coasfin celebra una d\u00e9cada de \u00e9xito en la prestaci\u00f3n de servicios financieros y administrativos, con planes ambiciosos para el futuro.",
+        "content": "<p>Coasfin celebra con orgullo su d\u00e9cimo aniversario como proveedor l\u00edder de servicios financieros y administrativos. Durante esta d\u00e9cada, hemos servido a m\u00e1s de 500 clientes y hemos expandido significativamente nuestra gama de servicios.<\/p><p>Logros destacados:<\/p><ul><li>Crecimiento de 5 a 50 empleados<\/li><li>Expansi\u00f3n a 3 ciudades principales<\/li><li>Desarrollo de 5 nuevas l\u00edneas de servicio<\/li><li>Reconocimiento como empresa l\u00edder en el sector<\/li><\/ul><p>\"Este aniversario representa no solo un logro, sino tambi\u00e9n un compromiso renovado con nuestros clientes\", afirma Carlos Mart\u00ednez, Fundador y CEO de Coasfin.<\/p><p>Para celebrar este hito, Coasfin ha lanzado una serie de promociones especiales y eventos para clientes durante todo el mes de marzo.<\/p>",
+        "author": "Equipo de Comunicaciones Coasfin"
+    },
+    {
+        "id": "4",
+        "title": "Nuevas tecnolog\u00edas en contabilidad: Coasfin implementa software de \u00faltima generaci\u00f3n",
+        "date": "2024-02-28",
+        "image": "images\/news\/accounting-tech.jpg",
+        "summary": "Coasfin actualiza sus sistemas contables con tecnolog\u00eda de punta para ofrecer servicios m\u00e1s eficientes y precisos a sus clientes.",
+        "content": "<p>Coasfin ha implementado un nuevo sistema de software contable de \u00faltima generaci\u00f3n, dise\u00f1ado para mejorar la eficiencia y precisi\u00f3n de sus servicios contables. Esta actualizaci\u00f3n tecnol\u00f3gica representa una inversi\u00f3n significativa en la calidad del servicio ofrecido a nuestros clientes.<\/p><p>Beneficios del nuevo sistema:<\/p><ul><li>Procesamiento en tiempo real de transacciones<\/li><li>Generaci\u00f3n autom\u00e1tica de informes financieros<\/li><li>Integraci\u00f3n con sistemas bancarios<\/li><li>Mayor seguridad en el manejo de datos<\/li><li>Interfaz intuitiva para clientes<\/li><\/ul><p>\"Esta actualizaci\u00f3n tecnol\u00f3gica nos permite ofrecer un servicio m\u00e1s eficiente y preciso a nuestros clientes\", explica Ana L\u00f3pez, Directora de Contabilidad de Coasfin.<\/p><p>El nuevo sistema ya est\u00e1 operativo y nuestros clientes est\u00e1n experimentando mejoras significativas en la gesti\u00f3n de sus procesos contables.<\/p>",
+        "author": "Departamento de Tecnolog\u00eda Coasfin"
+    },
+    {
+        "id": "5",
+        "title": "Coasfin obtiene certificaci\u00f3n ISO 9001:2015",
+        "date": "2024-02-20",
+        "image": "images\/news\/iso-certification.jpg",
+        "summary": "Coasfin recibe la certificaci\u00f3n ISO 9001:2015, reconociendo su compromiso con la calidad y la excelencia en la prestaci\u00f3n de servicios.",
+        "content": "<p>Coasfin se enorgullece en anunciar la obtenci\u00f3n de la certificaci\u00f3n ISO 9001:2015, un reconocimiento internacional que valida nuestro compromiso con la calidad y la excelencia en la prestaci\u00f3n de servicios.<\/p><p>Este logro representa:<\/p><ul><li>Reconocimiento de nuestros procesos de gesti\u00f3n de calidad<\/li><li>Compromiso con la mejora continua<\/li><li>Satisfacci\u00f3n del cliente como prioridad<\/li><li>Estandarizaci\u00f3n de procedimientos<\/li><\/ul><p>\"La certificaci\u00f3n ISO 9001:2015 es un testimonio de nuestro compromiso con la excelencia y la satisfacci\u00f3n del cliente\", afirma Laura S\u00e1nchez, Gerente de Calidad de Coasfin.<\/p><p>Este reconocimiento refuerza nuestra posici\u00f3n como l\u00edder en servicios financieros y administrativos, y nos motiva a mantener los m\u00e1s altos est\u00e1ndares de calidad en todos nuestros servicios.<\/p>",
+        "author": "Equipo de Calidad Coasfin"
+    }
+]

@@ -1,0 +1,431 @@
+/* Estilos para la página de noticias */
+.news-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/news-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0 4rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.news-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.news-hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.news-content {
+    padding: 4rem 0;
+    background-color: var(--light-gray);
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.news-card {
+    background: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+.news-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover .news-image img {
+    transform: scale(1.05);
+}
+
+.news-details {
+    padding: 1.5rem;
+}
+
+.news-date {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.news-title {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.news-excerpt {
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.news-author {
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.read-more {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #e68a00;
+}
+
+/* Estilos para el panel de administración */
+.admin-panel {
+    padding: 4rem 0;
+    background-color: var(--white);
+}
+
+.admin-panel h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+#news-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+/* Estilos para la página de noticia individual */
+.news-single {
+    padding: 8rem 0 4rem;
+}
+
+.news-single-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.news-single-title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.news-single-meta {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.news-single-image {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.news-single-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-single-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+.news-single-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para el indicador de carga */
+.loading {
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--text-color);
+}
+
+.loading i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .news-hero {
+        padding: 6rem 0 3rem;
+    }
+
+    .news-hero h1 {
+        font-size: 2rem;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .news-single-title {
+        font-size: 2rem;
+    }
+
+    .news-single-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+/* Estilos para el mensaje de administración */
+.admin-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.message-content {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.message-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.message-content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.message-details {
+    background-color: var(--light-gray);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.message-details strong {
+    color: var(--primary-color);
+}
+
+.close-message {
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.close-message:hover {
+    background-color: #e68a00;
+}
+
+/* Estilos para el indicador de carga del formulario */
+.loading-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.loading-indicator i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.loading-indicator p {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+/* Estilos para el mensaje de éxito */
+.admin-message.success .message-content {
+    border-top: 4px solid #4CAF50;
+}
+
+.message-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.view-news-button {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.view-news-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la página de administración */
+.admin-login {
+    padding: 8rem 0 4rem;
+    background-color: var(--light-gray);
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.login-container p {
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.admin-header h2 {
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.logout-button {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #e68a00;
+}
+
+.admin-content {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.admin-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+} 
