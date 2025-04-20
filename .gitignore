@@ -1,0 +1,40 @@
+# Archivos de imágenes
+images/**/*.jpg
+images/**/*.jpeg
+images/**/*.png
+images/**/*.gif
+images/**/*.svg
+images/**/*.webp
+images/**/*.ico
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de caché
+.cache/
+.sass-cache/
+*.log
+
+# Archivos de dependencias
+node_modules/
+vendor/
+
+# Archivos de compilación
+dist/
+build/
+out/
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
