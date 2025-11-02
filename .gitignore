@@ -6,6 +6,7 @@ images/**/*.gif
 images/**/*.svg
 images/**/*.webp
 images/**/*.ico
+web/img/
 
 # Archivos de sistema
 .DS_Store
